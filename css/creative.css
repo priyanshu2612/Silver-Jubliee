@@ -10,6 +10,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
 }
+
 .heading-title {
     margin-bottom: 100px;
 }
@@ -546,21 +547,54 @@ img {vertical-align: middle;}
 .btn:focus {outline:0;}
 
 .btn-dep{
-  border: 2px solid rgb(8, 51, 145);
   border-radius: 50px 0px 0px 50px;
-  padding: 10px;
+  padding-right: 10px;
 }
-.btn-common:focus{
-  background-color: rgb(8, 51, 145);
-  text-emphasis-color: white;
- 
+.btn:focus{
+  background-color: #212c7a;
+  padding: 0px;
+  border-radius: 0px 50px 50px 0px;
+
+}
+.btn2:focus{
+  background-color: #212c7a;
+  padding: 0px;
+  border-radius: 50px 0px 0px 50px;
+
 }
 .btn-dep-2{
-  border: 2px solid rgb(8, 51, 145);
   border-radius: 0px 50px 50px 0px;
-  padding: 10px;
 }
+.common{
+  background: transparent;
+  border: solid 2px #212c7a;
+  font-size: 25px;
+  background-color: #ffffff;
+  color: #212c7a;
+}
+.commom:hover{
+  background-color: #212c7a;
+  color: #fff;
+}
+.bone{
+  border-radius: 50px 0px 0px 50px;
+  padding: 5px;
+}
+.btwo{
+  border-radius: 0px 50px 50px 0px;
+  padding: 5px;
+}
+.bonep{
+  width: 150px;
+}
+.bonep:focus{
+  background-color: #fff3cd;
 
+}
+.commonp{
+  border: none;
+  position: absolute;
+}
 
 .card-section {
   display: flex;
